@@ -24,7 +24,7 @@ after_script:
 
 branches:
   only:
-    - blog-resource
+    - dev
 env:
  global:
    - GH_REF: github.com/chenminhao/chenminhao.github.io.git
