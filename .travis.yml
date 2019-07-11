@@ -3,11 +3,7 @@ node_js: stable
 
 # S: Build Lifecycle
 install:
-  - npm install hexo-cli -g
   - npm install
-  - npm install hexo-deployer-git --save
-
-
 #before_script:
  # - npm install -g gulp
 
@@ -22,7 +18,7 @@ after_script:
   - git config user.email "18219116770@163.com"
   - git add .
   - git commit -m "Update docs"
-  - git push --force --quiet "https://${myblog}@${GH_REF}" master:master
+  - git push --force --quiet "https://${myblog}@${GH_REF}" dev:master
 # E: Build LifeCycle
 
 branches:
