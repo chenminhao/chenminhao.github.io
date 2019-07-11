@@ -10,19 +10,17 @@ install:
 script:
   - hexo clean
   - hexo generate
+  - hexo deploy
 
-after_script:
-  - cd ./public
-  - git init
-  - git config user.name "chenminhao"
-  - git config user.email "18219116770@163.com"
-  - git add .
-  - git commit -m "Update docs"
-  - git push --force --quiet "https://${myblog}@${GH_REF}" master:master
+# after_script:
+#   - cd ./public
+#   - git init
+#   - git config user.name "chenminhao"
+#   - git config user.email "18219116770@163.com"
+#   - git add .
+#   - git commit -m "Update docs"
+#   - git push --force --quiet "https://${myblog}@${GH_REF}" master:master
 # E: Build LifeCycle
-
-after_success:
-- hexo deploy
 
 branches:
   only:
