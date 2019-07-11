@@ -4,7 +4,7 @@ node_js: stable
 # S: Build Lifecycle
 install:
   - npm install
-  - npm install hexo-deployer-git --save
+  # - npm install hexo-deployer-git --save
 #before_script:
  # - npm install -g gulp
 
@@ -13,11 +13,11 @@ script:
  - hexo g
 
 
-after_success:
- - hexo d
+# after_success:
+#  - hexo d
  
 after_script:
-  - cd ./public/images
+  - cd ./public
   - git init
   - git config user.name "chenminhao"
   - git config user.email "18219116770@163.com"
