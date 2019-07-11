@@ -17,7 +17,7 @@ after_success:
  - hexo d
  
 after_script:
-  - cd ./public
+  - cd ./public/images
   - git init
   - git config user.name "chenminhao"
   - git config user.email "18219116770@163.com"
