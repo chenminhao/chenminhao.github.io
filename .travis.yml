@@ -1,6 +1,5 @@
 language: node_js
-node_js: 
-  - 4.4.4
+node_js: stable
 
 # S: Build Lifecycle
 install:
@@ -11,8 +10,7 @@ install:
  # - npm install -g gulp
 
 script:
- - hexo clean
- - hexo g -d
+  - hexo g
 
 after_script:
   - cd ./public
