@@ -15,6 +15,8 @@ script:
 
 after_success:
  - hexo d
+ 
+after_script:
   - cd ./public
   - git init
   - git config user.name "chenminhao"
@@ -22,8 +24,6 @@ after_success:
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${myblog}@${GH_REF}" master:master
-
-# after_script:
 # E: Build LifeCycle
 
 branches:
