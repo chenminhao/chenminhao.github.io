@@ -11,10 +11,11 @@ install:
 
 script:
  - hexo clean
- - hexo g
+ - hexo generate
+ - hexo deploy
 
-after_success:
-- hexo deploy
+# after_success:
+
 # after_script:
 #   - cd ./public
 #   - git init
