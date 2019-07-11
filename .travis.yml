@@ -4,12 +4,15 @@ node_js: stable
 # S: Build Lifecycle
 install:
   - npm install
+  - npm install hexo-deployer-git --save
 #before_script:
  # - npm install -g gulp
 
 script:
  - hexo clean
- - hexo generate
+ - hexo g
+ - hexo d
+
 
 after_script:
   - cd ./public
