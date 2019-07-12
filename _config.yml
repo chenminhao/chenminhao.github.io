@@ -21,7 +21,7 @@ permalink_defaults:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: 标签
+tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -55,8 +55,8 @@ index_generator:
   
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
+category_map: 分类
+tag_map: 标签
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
