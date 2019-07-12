@@ -7,7 +7,7 @@ title: 个人博客
 subtitle:
 description:
 keywords:
-author: chenminhao
+author: bugLink
 language:
 timezone:
 
@@ -55,8 +55,8 @@ index_generator:
   
 # Category & Tag
 default_category: uncategorized
-category_map: 分类
-tag_map: 标签
+category_map: 
+tag_map: 
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
