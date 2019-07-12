@@ -154,7 +154,12 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://ss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=60bc5bf8da2a28345ca6300b6bb7c92e/e61190ef76c6a7efcefee3c3f3faaf51f2de667e.jpg
+avatar: 
+  url: https://ss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=60bc5bf8da2a28345ca6300b6bb7c92e/e61190ef76c6a7efcefee3c3f3faaf51f2de667e.jpg
+  rounded: true
+  opacity: 1
+  rounded: true
+
 
 # Table Of Contents in the Sidebar
 toc:
