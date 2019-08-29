@@ -9,7 +9,7 @@ CSS书写规范、顺序： http://www.admin10000.com/document/2979.html
 class命名规范：http://www.jb51.net/css/22091.html  
 多屏复杂动画CSS技巧三则： http://www.cocoachina.com/webapp/20150316/11334.html  
 无缝滚动： http://code.ciaoca.com/jquery/kxbdmarquee/   
-纯CSS绘制三角形：http://www.jb51.net/article/42513.html   
+纯CSS绘制三角形：http://www.jb51.net/article/42513.htm  
 
 ## background-size
 

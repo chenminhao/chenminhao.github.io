@@ -8,8 +8,7 @@ tags:
 ## ES6
 相关资料：
 
->[前端开发者不得不知的ES6十大特性](http://web.jobbole.com/86984/)  
-[深入浅出ES6（四）：模板字符串](http://www.infoq.com/cn/articles/es6-in-depth-template-string)    
+>[深入浅出ES6（四）：模板字符串](http://www.infoq.com/cn/articles/es6-in-depth-template-string)    
 [30分钟掌握ES6/ES2015核心内容（上）](https://segmentfault.com/a/1190000004365693)  
 [Fetch 与 Promise](http://blog.csdn.net/gdp12315_gu/article/details/54381598)  
 ES6 rest参数和扩展运算符:  
