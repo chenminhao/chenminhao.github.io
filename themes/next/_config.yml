@@ -236,6 +236,10 @@ auto_excerpt:
   enable: false
   length: 150
 
+# DaoVoice 
+daovoice: true
+daovoice_app_id: '31a5157e'
+
 # Post meta display settings
 post_meta:
   item_text: true
