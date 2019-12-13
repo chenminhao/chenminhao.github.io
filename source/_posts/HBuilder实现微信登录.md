@@ -7,15 +7,13 @@ tags:
 
 ---
 
-## HBuider 实现微信登录
-
-## 所需条件
+### 所需条件
 
 > 1. 在微信开放平台进行申请移动应用
 > 2. HBuilderX中配置登录授权
 > 3. 代码用例
 
-首先登录微信开放平台 https://open.weixin.qq.com/，选择移动应用开发，创建应用，如下图所示：
+首先登录微信开放平台 https://open.weixin.qq.com 选择移动应用开发，创建应用，如下图所示：
 
 ![创建应用](HBuilder实现微信登录/1.png)
 
@@ -58,8 +56,8 @@ tags:
               weixinService.authorize(
                 function(event) {
                   _this.weixinCode = event.code // 用户换取 access_token 的 code
-                   // 请求服务端授权登录
-          		  // 服务端参考： https://developers.weixin.qq.com/doc/oplatform/Mobile_App/WeChat_Login/Authorized_API_call_UnionID.html
+                  // 请求服务端授权登录
+          		    // 服务端参考： https://developers.weixin.qq.com/doc/oplatform/Mobile_App/WeChat_Login/Authorized_API_call_UnionID.html
                 },
                 function(error) {
                   console.error('authorize fail:' + JSON.stringify(error))
