@@ -1,7 +1,7 @@
 ---
 title: git命令
 categories:
-- app开发
+- 移动端
 tags:
 - 命令
 
